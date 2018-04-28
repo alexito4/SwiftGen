@@ -31,7 +31,8 @@ class InterfaceBuilderTests: XCTestCase {
       // test: enumName parameter
       (
         context: try StencilContext.enrich(context: context,
-                                           parameters: ["enumName=XCTStoryboardCustom"]),
+                                           parameters: ["enumName=XCTStoryboardCustom",
+                                                        "unnamedSegueCaseName=customUnnamedSegue"]),
         suffix: "-custom-name"
       ),
 
