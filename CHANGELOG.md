@@ -14,7 +14,9 @@ _None_
 
 ### Bug Fixes
 
-_None_
+* Strings: generate the correct types for `%c` and `%p`.  
+  [David Jennes](https://github.com/djbe)
+  [#543](https://github.com/SwiftGen/SwiftGen/pull/543)
 
 ### Internal Changes
 
